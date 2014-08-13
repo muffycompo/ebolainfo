@@ -31,7 +31,6 @@ public class WhatDoIDoNow extends Activity implements OnClickListener {
 		switch (v.getId()) {
 		case R.id.btWhatToDoNext:			
 			Intent itNext = new Intent(this, MainActivity.class);
-			itNext.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
 			startActivity(itNext);			
 			break;
 			
