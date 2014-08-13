@@ -25,6 +25,5 @@ public class MainActivity extends Activity implements OnClickListener {
 	public void onClick(View v) {
 		Intent it = new Intent(this, WhatIsEbola.class);
 		startActivity(it);
-
 	}
 }
