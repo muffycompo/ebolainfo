@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:text="How do I contact Ebola?"
+        android:text="@string/howdo_you_contact_it"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textStyle="bold" />
 
@@ -33,7 +33,7 @@
                 android:id="@+id/tvContact1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
+                android:text="@string/howdo_you_contact_it_msg"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#444" />
 
@@ -42,7 +42,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
+                android:text="@string/fluid"
+                android:textStyle="bold"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#444" />
 
@@ -51,8 +52,44 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas"
+                android:text="@string/fluid_msg"
                 android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#444" />
+            <TextView
+                android:id="@+id/tvContact4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/dead_victims"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#444" />
+
+            <TextView
+                android:id="@+id/tvContact5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/dead_victims_msg"
+                android:textAppearance="?android:attr/textAppearanceMedium" 
+                android:textColor="#444" />
+            <TextView
+                android:id="@+id/tvContact6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/infected_animals"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#444" />
+
+            <TextView
+                android:id="@+id/tvContact7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/infected_animals_msg"
+                android:textAppearance="?android:attr/textAppearanceMedium" 
                 android:textColor="#444" />
         </LinearLayout>
     </ScrollView>
