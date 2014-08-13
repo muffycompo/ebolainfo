@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:text="What are the Symptoms?"
+        android:text="@string/what_are_the_symptoms"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textStyle="bold" />
 
@@ -33,7 +33,7 @@
                 android:id="@+id/tvSymptoms1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
+                android:text="@string/sudden_high_fever"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#444" />
 
@@ -42,7 +42,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
+                android:text="@string/diarrhea"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#444" />
 
@@ -51,7 +51,58 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas"
+                android:text="@string/vommiting"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#444" />
+            <TextView
+                android:id="@+id/tvSymptoms4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/weakness"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#444" />
+
+            <TextView
+                android:id="@+id/tvSymptoms5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/joint_and_muscle_ache"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#444" />
+
+            <TextView
+                android:id="@+id/tvSymptoms6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/stomach_pain"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#444" />
+
+            <TextView
+                android:id="@+id/tvSymptoms7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lack_of_appetite"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#444" />
+
+            <TextView
+                android:id="@+id/tvSymptoms8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/sore_throat"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#444" />
+
+            <TextView
+                android:id="@+id/tvSymptoms9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/bleeding"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#444" />
         </LinearLayout>
