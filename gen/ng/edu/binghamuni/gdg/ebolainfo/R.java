@@ -1095,8 +1095,8 @@ containing a value of this type.
         public static final int btSymptomsNext=0x7f05005f;
         public static final int btSymptomsPrev=0x7f05005e;
         public static final int btWhat=0x7f050060;
-        public static final int btWhatToDoNext=0x7f050068;
-        public static final int btWhatToDoPrev=0x7f050067;
+        public static final int btWhatToDoNext=0x7f050069;
+        public static final int btWhatToDoPrev=0x7f050068;
         public static final int checkbox=0x7f05002d;
         public static final int collapseActionView=0x7f05000d;
         public static final int default_activity_button=0x7f050028;
@@ -1119,7 +1119,7 @@ containing a value of this type.
         public static final int llHoax=0x7f050043;
         public static final int llPrevent=0x7f050052;
         public static final int llSymptoms=0x7f05005a;
-        public static final int llWhatToDo=0x7f050063;
+        public static final int llWhatToDo=0x7f050064;
         public static final int middle=0x7f050012;
         public static final int never=0x7f050009;
         public static final int none=0x7f050010;
@@ -1132,7 +1132,7 @@ containing a value of this type.
         public static final int rlPrevent=0x7f050050;
         public static final int rlSymptoms=0x7f050058;
         public static final int rlWhat=0x7f050049;
-        public static final int rlWhatToDo=0x7f050061;
+        public static final int rlWhatToDo=0x7f050062;
         public static final int search_badge=0x7f050032;
         public static final int search_bar=0x7f050031;
         public static final int search_button=0x7f050033;
@@ -1155,6 +1155,7 @@ containing a value of this type.
         public static final int tvContact1=0x7f05004c;
         public static final int tvContact2=0x7f05003f;
         public static final int tvContact3=0x7f05004d;
+        public static final int tvContact4=0x7f050061;
         public static final int tvContactHeading=0x7f05004a;
         public static final int tvHoax=0x7f050044;
         public static final int tvHoax2=0x7f050045;
@@ -1169,10 +1170,10 @@ containing a value of this type.
         public static final int tvSymptoms3=0x7f05005d;
         public static final int tvSymptomsHeading=0x7f050059;
         public static final int tvWhatHeading=0x7f05003e;
-        public static final int tvWhatToDo=0x7f050064;
-        public static final int tvWhatToDo2=0x7f050065;
-        public static final int tvWhatToDo3=0x7f050066;
-        public static final int tvWhatToDoHeading=0x7f050062;
+        public static final int tvWhatToDo=0x7f050065;
+        public static final int tvWhatToDo2=0x7f050066;
+        public static final int tvWhatToDo3=0x7f050067;
+        public static final int tvWhatToDoHeading=0x7f050063;
         public static final int up=0x7f050021;
         public static final int useLogo=0x7f050003;
         public static final int withText=0x7f05000c;
@@ -1278,8 +1279,65 @@ containing a value of this type.
          */
         public static final int abc_shareactionprovider_share_with_application=0x7f0a000b;
         public static final int app_name=0x7f0a000d;
+        public static final int bitter_kola=0x7f0a003b;
+        public static final int bitter_kola_msg=0x7f0a003c;
+        public static final int bleeding=0x7f0a002a;
+        public static final int dead_victims=0x7f0a001d;
+        public static final int dead_victims_msg=0x7f0a001e;
+        public static final int diarrhea=0x7f0a0023;
+        public static final int dont_handle_dead_bush_meat=0x7f0a0036;
+        public static final int dont_handle_dead_bush_meat_msg=0x7f0a0037;
+        public static final int educate_everyone=0x7f0a0034;
+        public static final int educate_everyone_msg=0x7f0a0035;
+        /**  Don't believe false informatio 
+         */
+        public static final int false_info=0x7f0a0038;
+        public static final int fluid=0x7f0a001b;
+        public static final int fluid_msg=0x7f0a001c;
         public static final int hello_world=0x7f0a000e;
+        /**  How do i prevent it 
+         */
+        public static final int how_do_i_prevent_it=0x7f0a002b;
+        /**  How do you contact Ebola 
+         */
+        public static final int howdo_you_contact_it=0x7f0a0019;
+        public static final int howdo_you_contact_it_msg=0x7f0a001a;
+        public static final int infected_animals=0x7f0a001f;
+        public static final int infected_animals_msg=0x7f0a0020;
+        public static final int it_is_bloody=0x7f0a0011;
+        public static final int it_is_bloody_msg=0x7f0a0012;
+        public static final int it_is_contagious=0x7f0a0013;
+        public static final int it_is_contagious_msg=0x7f0a0014;
+        public static final int john_g_lake=0x7f0a0039;
+        public static final int john_g_lake_msg=0x7f0a003a;
+        public static final int joint_and_muscle_ache=0x7f0a0026;
+        public static final int keep_clean_ev=0x7f0a002e;
+        public static final int keep_clean_ev_msg=0x7f0a002f;
+        public static final int lack_of_appetite=0x7f0a0028;
+        public static final int protect_yourself=0x7f0a0032;
+        public static final int protect_yourself_msg=0x7f0a0033;
+        public static final int really_deadly=0x7f0a0015;
+        public static final int really_deadly_msg=0x7f0a0016;
+        public static final int report=0x7f0a0030;
+        public static final int report_msg=0x7f0a0031;
+        public static final int salt_water=0x7f0a003d;
+        public static final int salt_water_msg=0x7f0a003e;
+        public static final int sore_throat=0x7f0a0029;
+        public static final int stomach_pain=0x7f0a0027;
+        public static final int sudden_high_fever=0x7f0a0022;
         public static final int title_activity_how_do_icontact_ebola=0x7f0a000f;
+        public static final int un_treatable=0x7f0a0017;
+        public static final int untreatable_msg=0x7f0a0018;
+        public static final int vommiting=0x7f0a0024;
+        public static final int wash_hands=0x7f0a002c;
+        public static final int wash_hands_msg=0x7f0a002d;
+        public static final int weakness=0x7f0a0025;
+        /**  What are the symptoms 
+         */
+        public static final int what_are_the_symptoms=0x7f0a0021;
+        /**  what is ebola strings?  
+         */
+        public static final int whatis_ebola=0x7f0a0010;
     }
     public static final class style {
         /** 
