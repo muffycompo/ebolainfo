@@ -7,7 +7,7 @@
     
     
     <!-- what is ebola strings?  -->
-    <string name="whatis_ebola">What is ebola?</string>
+    <string name="whatis_ebola">What is Ebola?</string>
     <string name="it_is_bloody">It is bloody</string>
     <string name="it_is_bloody_msg">Ebola is what scientists call a haemorraghic fever - it operates by making its victims bleed from almost anywhere on their body. Usually, victims bleed to death from Ebola.</string>
     <string name="it_is_contagious">It is contagious</string>
@@ -55,7 +55,7 @@
     <string name="dont_handle_dead_bush_meat_msg">Some animals are reservoirs of the virus. It might be better to restrict yourself to food you prepared yourself.</string>
 
 	<!-- Don't believe false informatio -->
-	<string name="false_info">Do not believe in false information</string>
+	<string name="false_info">Discard any Hoax on Ebola!</string>
 	<string name="john_g_lake">John G Lake</string>
 	<string name="john_g_lake_msg">John G Lake was a great man of God, but he died before Ebola was discovered. How could he have cured it? Faith without works is dead. Pray but protect yourself.</string>
 	<string name="bitter_kola">Bitter Kola</string>
