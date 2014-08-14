@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
+        android:layout_marginBottom="@dimen/btn_layout_5dp_padding"
         android:text="@string/howdo_you_contact_it"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textStyle="bold" />
@@ -43,9 +44,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:text="@string/fluid"
-                android:textStyle="bold"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textColor="#444" />
+                android:textColor="#444"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tvContact3"
@@ -55,15 +56,16 @@
                 android:text="@string/fluid_msg"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#444" />
+
             <TextView
                 android:id="@+id/tvContact4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:text="@string/dead_victims"
-                android:textStyle="bold"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textColor="#444" />
+                android:textColor="#444"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tvContact5"
@@ -71,17 +73,18 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:text="@string/dead_victims_msg"
-                android:textAppearance="?android:attr/textAppearanceMedium" 
+                android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#444" />
+
             <TextView
                 android:id="@+id/tvContact6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:text="@string/infected_animals"
-                android:textStyle="bold"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textColor="#444" />
+                android:textColor="#444"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tvContact7"
@@ -89,7 +92,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:text="@string/infected_animals_msg"
-                android:textAppearance="?android:attr/textAppearanceMedium" 
+                android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#444" />
         </LinearLayout>
     </ScrollView>
@@ -106,6 +109,7 @@
             android:id="@+id/btContactPrev"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/btn_layout_5dp_padding"
             android:layout_weight="1"
             android:text="&lt;&lt; Previous" />
 
@@ -113,6 +117,7 @@
             android:id="@+id/btContactNext"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/btn_layout_5dp_padding"
             android:layout_weight="1"
             android:text="Next >>" />
     </LinearLayout>

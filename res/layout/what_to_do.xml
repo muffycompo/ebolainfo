@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
+        android:layout_marginBottom="@dimen/btn_layout_5dp_padding"
         android:text="What do I do now?"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textStyle="bold" />
@@ -69,6 +70,7 @@
             android:id="@+id/btWhatToDoPrev"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/btn_layout_5dp_padding"
             android:layout_weight="1"
             android:text="&lt;&lt; Previous" />
 
@@ -76,6 +78,7 @@
             android:id="@+id/btWhatToDoNext"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/btn_layout_5dp_padding"
             android:layout_weight="1"
             android:text="Home" />
     </LinearLayout>

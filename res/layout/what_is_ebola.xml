@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
+        android:layout_marginBottom="@dimen/btn_layout_5dp_padding"
         android:text="@string/whatis_ebola"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textStyle="bold" />
@@ -33,9 +34,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/it_is_bloody"
-                android:textStyle="bold"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textColor="#444" />
+                android:textColor="#444"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tvContact2"
@@ -52,9 +53,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:text="@string/it_is_contagious"
-                android:textStyle="bold"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textColor="#444" />
+                android:textColor="#444"
+                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/tvContact4"
                 android:layout_width="wrap_content"
@@ -63,15 +65,17 @@
                 android:text="@string/it_is_contagious_msg"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#444" />
+
             <TextView
                 android:id="@+id/tvContact5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:text="@string/really_deadly"
-                android:textStyle="bold"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textColor="#444" />
+                android:textColor="#444"
+                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/tvContact6"
                 android:layout_width="wrap_content"
@@ -80,15 +84,17 @@
                 android:text="@string/really_deadly_msg"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#444" />
+
             <TextView
                 android:id="@+id/tvContact7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:text="@string/un_treatable"
-                android:textStyle="bold"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textColor="#444" />
+                android:textColor="#444"
+                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/tvContact8"
                 android:layout_width="wrap_content"
@@ -106,6 +112,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/btn_layout_5dp_padding"
         android:text="Next >>" />
 
 </RelativeLayout>

@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
+        android:layout_marginBottom="@dimen/btn_layout_5dp_padding"
         android:text="@string/false_info"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textStyle="bold" />
@@ -34,9 +35,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/john_g_lake"
-                android:textStyle="bold"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textColor="#444" />
+                android:textColor="#444"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tvHoax2"
@@ -53,9 +54,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:text="@string/bitter_kola"
-                android:textStyle="bold"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textColor="#444" />
+                android:textColor="#444"
+                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/tvHoax4"
                 android:layout_width="wrap_content"
@@ -70,9 +72,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:text="@string/salt_water"
-                android:textStyle="bold"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textColor="#444" />
+                android:textColor="#444"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tvHoax6"
@@ -91,12 +93,14 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
+        android:layout_marginTop="5dp"
         android:orientation="horizontal" >
 
         <Button
             android:id="@+id/btHoaxPrev"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/btn_layout_5dp_padding"
             android:layout_weight="1"
             android:text="&lt;&lt; Previous" />
 
@@ -104,6 +108,7 @@
             android:id="@+id/btHoaxNext"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/btn_layout_5dp_padding"
             android:layout_weight="1"
             android:text="Next >>" />
     </LinearLayout>

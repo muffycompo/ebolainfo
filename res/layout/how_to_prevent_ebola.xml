@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
+        android:layout_marginBottom="@dimen/btn_layout_5dp_padding"
         android:text="@string/how_do_i_prevent_it"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textStyle="bold" />
@@ -34,9 +35,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/wash_hands"
-                android:textStyle="bold"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textColor="#444" />
+                android:textColor="#444"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tvPrevent2"
@@ -53,9 +54,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:text="@string/keep_clean_ev"
-                android:textStyle="bold"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textColor="#444" />
+                android:textColor="#444"
+                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/tvPrevent4"
                 android:layout_width="wrap_content"
@@ -70,9 +72,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:text="@string/report"
-                android:textStyle="bold"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textColor="#444" />
+                android:textColor="#444"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tvPrevent6"
@@ -82,14 +84,15 @@
                 android:text="@string/report_msg"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#444" />
+
             <TextView
                 android:id="@+id/tvPrevent7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/protect_yourself"
-                android:textStyle="bold"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textColor="#444" />
+                android:textColor="#444"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tvPrevent8"
@@ -106,9 +109,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:text="@string/educate_everyone"
-                android:textStyle="bold"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textColor="#444" />
+                android:textColor="#444"
+                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/tvPrevent10"
                 android:layout_width="wrap_content"
@@ -123,9 +127,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:text="@string/dont_handle_dead_bush_meat"
-                android:textStyle="bold"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textColor="#444" />
+                android:textColor="#444"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tvPrevent12"
@@ -150,6 +154,7 @@
             android:id="@+id/btPreventPrev"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/btn_layout_5dp_padding"
             android:layout_weight="1"
             android:text="&lt;&lt; Previous" />
 
@@ -157,6 +162,7 @@
             android:id="@+id/btPreventNext"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/btn_layout_5dp_padding"
             android:layout_weight="1"
             android:text="Next >>" />
     </LinearLayout>

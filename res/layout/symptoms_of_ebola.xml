@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
+        android:layout_marginBottom="@dimen/btn_layout_5dp_padding"
         android:text="@string/what_are_the_symptoms"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textStyle="bold" />
@@ -54,7 +55,7 @@
                 android:text="@string/vommiting"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#444" />
-            <TextView
+            <TextView
                 android:id="@+id/tvSymptoms4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -120,6 +121,7 @@
             android:id="@+id/btSymptomsPrev"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/btn_layout_5dp_padding"
             android:layout_weight="1"
             android:text="&lt;&lt; Previous" />
 
@@ -127,6 +129,7 @@
             android:id="@+id/btSymptomsNext"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/btn_layout_5dp_padding"
             android:layout_weight="1"
             android:text="Next >>" />
     </LinearLayout>
