@@ -3,50 +3,49 @@
 
     <string name="app_name">Ebola Info</string>
     <string name="hello_world">Hello world!</string>
-    <string name="title_activity_how_do_icontact_ebola">HowDoiContactEbola</string>
-    
-    
-    <!-- what is ebola strings?  -->
+    <string name="title_activity_how_do_icontact_ebola">How Do I Contact Ebola</string>
+
+    <!-- what is ebola strings? -->
     <string name="whatis_ebola">What is Ebola?</string>
     <string name="it_is_bloody">It is bloody</string>
     <string name="it_is_bloody_msg">Ebola is what scientists call a haemorraghic fever - it operates by making its victims bleed from almost anywhere on their body. Usually, victims bleed to death from Ebola.</string>
     <string name="it_is_contagious">It is contagious</string>
-    <string name="it_is_contagious_msg">Ebola is highly contagious; being transmitted via contact with body fluids such as blood, saliva, semen or body discharges. Ebola is NOT AIRBORNE!</string>
+    <string name="it_is_contagious_msg">Ebola is highly contagious; being transmitted via contact with body fluids such as blood, saliva, semen or body discharges. Ebola is <b>NOT AIRBORNE!</b></string>
     <string name="really_deadly">Really deadly</string>
     <string name="really_deadly_msg">About 60 to 90 of people that catch Ebola will die from it. It is one of the deadliest diseases in the world, killing in a few weeks.</string>
     <string name="un_treatable">Untreatable</string>
     <string name="untreatable_msg">This is the sad part - Ebola has no known cure. But victims can be treated for symptoms and have been known to recover with intensive care.</string>
 
-	<!-- How do you contact Ebola -->
-	<string name="howdo_you_contact_it">How do you contact it?</string>
+    <!-- How do you contact Ebola -->
+    <string name="howdo_you_contact_it">How do you contact it?</string>
     <string name="howdo_you_contact_it_msg">Ebola is contagious by 3 major ways. If you do not fall in these 3 categories, you are unlikely to catch it.</string>
     <string name="fluid">Fluid</string>
-    <string name="fluid_msg">Contact with body fluids of someone who is VISIBLY sick with the disease. Remember, Ebola is NOT AIRBORNE!</string>
+    <string name="fluid_msg">Contact with body fluids of someone who is <b>VISIBLY</b> sick with the disease. Remember, Ebola is <b>NOT AIRBORNE!</b></string>
     <string name="dead_victims">Dead victims</string>
     <string name="dead_victims_msg">Contact with the body of someone who has died from Ebola. That means that dead bodies are still contagious.</string>
     <string name="infected_animals">Infected animals</string>
     <string name="infected_animals_msg">Contact with an animal that is carrying the virus; usually fruit bats and monkeys</string>
-    
+
     <!-- What are the symptoms -->
     <string name="what_are_the_symptoms">What are the symptoms</string>
-    <string name="sudden_high_fever">Sudden High Fever</string>
-    <string name="diarrhea">Diarrhea</string>
-    <string name="vommiting">Vommiting</string>
-    <string name="weakness">Weakness</string>
-    <string name="joint_and_muscle_ache">Joint and Muscle ache</string>
-    <string name="stomach_pain">Stomach pain</string>
-    <string name="lack_of_appetite">Lack of appetite</string>
-    <string name="sore_throat">Sore throat</string>
-    <string name="bleeding">Bleeding</string>
-    
+    <string name="sudden_high_fever">- Sudden High Fever</string>
+    <string name="diarrhea">- Diarrhea</string>
+    <string name="vommiting">- Vomiting</string>
+    <string name="weakness">- Weakness</string>
+    <string name="joint_and_muscle_ache">- Joint and Muscle ache</string>
+    <string name="stomach_pain">- Stomach pain</string>
+    <string name="lack_of_appetite">- Lack of appetite</string>
+    <string name="sore_throat">- Sore throat</string>
+    <string name="bleeding">- Bleeding</string>
+
     <!-- How do i prevent it -->
-    <string name="how_do_i_prevent_it"> How do i prevent it</string>
+    <string name="how_do_i_prevent_it">How do I prevent it</string>
     <string name="wash_hands">Wash Your Hands with Soap and Water</string>
     <string name="wash_hands_msg">Do this a lot. You can also use a good hand sanitizer. Avoid unnecessary contact!</string>
     <string name="keep_clean_ev">Keep a Clean Environment</string>
     <string name="keep_clean_ev_msg">The virus cannot survive disinfectants, heat, direct sunlight, detergents and soaps. Clean up! You might want to fumigate if you have pests.</string>
     <string name="report">Report</string>
-    <string name="report_msg">Report any suspicious symptoms in yourself or anyone else IMMEDIATELY you notice them. Do not delay!!</string>
+    <string name="report_msg">Report any suspicious symptoms in yourself or anyone else <b>IMMEDIATELY</b> you notice them. Do not delay!!</string>
     <string name="protect_yourself">Protect Yourself</string>
     <string name="protect_yourself_msg">Use protective gear if you must care or go near someone you suspect has Ebola. Also, dead bodies can still transmit Ebola. Do not touch them without protective gear or avoid them altogether.</string>
     <string name="educate_everyone">Educate Everyone</string>
@@ -54,14 +53,27 @@
     <string name="dont_handle_dead_bush_meat">Do not Handle Dead Bush Meat</string>
     <string name="dont_handle_dead_bush_meat_msg">Some animals are reservoirs of the virus. It might be better to restrict yourself to food you prepared yourself.</string>
 
-	<!-- Don't believe false informatio -->
-	<string name="false_info">Discard any Hoax on Ebola!</string>
-	<string name="john_g_lake">John G Lake</string>
-	<string name="john_g_lake_msg">John G Lake was a great man of God, but he died before Ebola was discovered. How could he have cured it? Faith without works is dead. Pray but protect yourself.</string>
-	<string name="bitter_kola">Bitter Kola</string>
-	<string name="bitter_kola_msg">No one has been cured or protected from Ebola by taking bitter kola. If you feel like bitter kola, eat it but protect yourself!</string>
-	<string name="salt_water">Salt and Water</string>
-	<string name="salt_water_msg">Salt and hot water do not protect against viruses. If it did, it would also cure HIV!</string>
-    
+    <!-- Don't believe false information -->
+    <string name="false_info">Discard any Hoax on Ebola!</string>
+    <string name="john_g_lake">Prayer Houses</string>
+    <string name="john_g_lake_msg">Ebola is not something you take to religious houses for prayers. You can pray for people infected with Ebola over the phone. Do not infect others!!</string>
+    <string name="bitter_kola">Bitter Kola</string>
+    <string name="bitter_kola_msg">No one has been cured or protected from Ebola by taking bitter kola. If you like bitter kola, eat it but protect yourself!</string>
+    <string name="salt_water">Salt and Water</string>
+    <string name="salt_water_msg">Salt and hot water do not protect against viruses. If it did, it would also cure HIV!</string>
+    <string name="preamble">Do you know that there is a <b>DEADLY</b> disease in town? It has claimed many lives and there is no known <b>CURE</b> or <b>VACCINE</b> for it yet. Let Ebola Info enlighten you about this disease&#8230;</string>
+    <string name="ebola_info">Ebola Info</string>
+    <string name="enlighten_me">Enlighten Me</string>
+    <string name="previous">&lt;&lt; Previous</string>
+    <string name="next">Next &gt;&gt;</string>
+    <string name="home">Home</string>
+    <string name="what_do_i_do_now">What do I do now?</string>
+    <string name="what_to_do_string">Having known the symptoms of Ebola, if you know anyone having such symptoms, quicky call the following phone numbers:</string>
+    <string name="first_number">0800-32652-4357</string>
+    <string name="second_number">08023169485</string>
+    <string name="third_number">08033086660</string>
+    <string name="fourth_number">08033065303</string>
+    <string name="fift_number">08055281442</string>
+    <string name="sixth_number">08055329229</string>
 
 </resources>

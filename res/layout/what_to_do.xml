@@ -14,7 +14,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginBottom="@dimen/btn_layout_5dp_padding"
-        android:text="What do I do now?"
+        android:text="@string/what_do_i_do_now"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textStyle="bold" />
 
@@ -22,11 +22,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@+id/llWhatToDo"
-        android:layout_below="@+id/tvWhatToDoHeading" >
+        android:layout_below="@+id/tvWhatToDoHeading"
+        android:layout_margin="@dimen/layout_8dp_margin" >
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:orientation="vertical" >
 
@@ -34,27 +35,69 @@
                 android:id="@+id/tvWhatToDo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
+                android:text="@string/what_to_do_string"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#444" />
 
             <TextView
-                android:id="@+id/tvWhatToDo2"
+                android:id="@+id/first_number"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
+                android:text="@string/first_number"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textColor="#444" />
+                android:textColor="#444"
+                android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/tvWhatToDo3"
+                android:id="@+id/second_number"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas"
+                android:text="@string/second_number"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textColor="#444" />
+                android:textColor="#444"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/third_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/third_number"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#444"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/fourth_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/fourth_number"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#444"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/fift_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/fift_number"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#444"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/sixth_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/sixth_number"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#444"
+                android:textStyle="bold" />
         </LinearLayout>
     </ScrollView>
 
@@ -72,7 +115,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/btn_layout_5dp_padding"
             android:layout_weight="1"
-            android:text="&lt;&lt; Previous" />
+            android:text="@string/previous" />
 
         <Button
             android:id="@+id/btWhatToDoNext"
@@ -80,7 +123,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/btn_layout_5dp_padding"
             android:layout_weight="1"
-            android:text="Home" />
+            android:text="@string/home" />
     </LinearLayout>
 
 </RelativeLayout>

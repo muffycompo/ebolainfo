@@ -22,11 +22,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@+id/llSymptoms"
-        android:layout_below="@+id/tvSymptomsHeading" >
+        android:layout_below="@+id/tvSymptomsHeading"
+        android:layout_margin="@dimen/layout_8dp_margin" >
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:orientation="vertical" >
 
@@ -42,7 +43,6 @@
                 android:id="@+id/tvSymptoms2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
                 android:text="@string/diarrhea"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#444" />
@@ -51,11 +51,11 @@
                 android:id="@+id/tvSymptoms3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
                 android:text="@string/vommiting"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#444" />
-            <TextView
+
+            <TextView
                 android:id="@+id/tvSymptoms4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -67,7 +67,6 @@
                 android:id="@+id/tvSymptoms5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
                 android:text="@string/joint_and_muscle_ache"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#444" />
@@ -76,7 +75,6 @@
                 android:id="@+id/tvSymptoms6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
                 android:text="@string/stomach_pain"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#444" />
@@ -93,7 +91,6 @@
                 android:id="@+id/tvSymptoms8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
                 android:text="@string/sore_throat"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#444" />
@@ -102,7 +99,6 @@
                 android:id="@+id/tvSymptoms9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
                 android:text="@string/bleeding"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#444" />
@@ -123,7 +119,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/btn_layout_5dp_padding"
             android:layout_weight="1"
-            android:text="&lt;&lt; Previous" />
+            android:text="@string/previous" />
 
         <Button
             android:id="@+id/btSymptomsNext"
@@ -131,7 +127,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/btn_layout_5dp_padding"
             android:layout_weight="1"
-            android:text="Next >>" />
+            android:text="@string/next" />
     </LinearLayout>
 
 </RelativeLayout>

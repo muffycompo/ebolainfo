@@ -23,20 +23,19 @@
         android:layout_below="@+id/imageView1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="14dp"
-        android:text="Ebola Info"
+        android:text="@string/ebola_info"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textSize="30sp"
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/tvContact2"
+        android:id="@+id/tvPreamble"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/tvWhatHeading"
-        android:layout_marginTop="14dp"
+        android:layout_margin="@dimen/layout_8dp_margin"
         android:minLines="3"
-        android:text="Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="#444" />
 
@@ -47,6 +46,6 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="63dp"
-        android:text="Enlighten Me" />
+        android:text="@string/enlighten_me" />
 
 </RelativeLayout>

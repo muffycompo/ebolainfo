@@ -21,11 +21,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@+id/btWhat"
-        android:layout_below="@+id/tvWhatHeading" >
+        android:layout_below="@+id/tvWhatHeading"
+        android:layout_margin="@dimen/layout_8dp_margin" >
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:orientation="vertical" >
 
@@ -62,7 +63,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="@string/it_is_contagious_msg"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#444" />
 
@@ -113,6 +113,6 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_marginTop="@dimen/btn_layout_5dp_padding"
-        android:text="Next >>" />
+        android:text="@string/next" />
 
 </RelativeLayout>

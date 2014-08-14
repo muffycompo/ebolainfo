@@ -6,10 +6,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class WhatIsEbola extends Activity implements OnClickListener {
 	
 	Button btNext;
+	TextView tvWhatIs;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +19,10 @@ public class WhatIsEbola extends Activity implements OnClickListener {
 		setContentView(R.layout.what_is_ebola);
 		
 		btNext = (Button) findViewById(R.id.btWhat);
+		tvWhatIs = (TextView) findViewById(R.id.tvContact4);
+		
+		tvWhatIs.setText(R.string.it_is_contagious_msg);
+		
 		btNext.setOnClickListener(this);
 		
 	}
