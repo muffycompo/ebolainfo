@@ -1552,7 +1552,8 @@ containing a value of this type.
         public static final int educate_everyone=0x7f0a0031;
         public static final int educate_everyone_msg=0x7f0a0032;
         public static final int enlighten_me=0x7f0a003e;
-        /**  Don't believe false information 
+        /**  Don\'t believe false information 
+ Don't believe false information 
          */
         public static final int false_info=0x7f0a0035;
         public static final int first_number=0x7f0a0044;
@@ -1561,15 +1562,18 @@ containing a value of this type.
         public static final int help_email=0x7f0a0047;
         public static final int home=0x7f0a0041;
         /**  How do i prevent it 
+ How do i prevent it 
          */
         public static final int how_do_i_prevent_it=0x7f0a0028;
         /**  How do you contact Ebola 
+ How do you contact Ebola 
          */
         public static final int howdo_you_contact_it=0x7f0a0016;
         public static final int howdo_you_contact_it_msg=0x7f0a0017;
         public static final int infected_animals=0x7f0a001c;
         public static final int infected_animals_msg=0x7f0a001d;
         /**  what is ebola strings? 
+ what is ebola strings? 
          */
         public static final int it_is_bloody=0x7f0a000e;
         public static final int it_is_bloody_msg=0x7f0a000f;
@@ -1604,9 +1608,11 @@ containing a value of this type.
         public static final int wash_hands_msg=0x7f0a002a;
         public static final int weakness=0x7f0a0022;
         /**  What are the symptoms 
+ What are the symptoms 
          */
         public static final int what_are_the_symptoms=0x7f0a001e;
         /**  What do I do now 
+ What do I do now 
          */
         public static final int what_do_i_do_now=0x7f0a0042;
         public static final int what_is_ebola=0x7f0a0048;
