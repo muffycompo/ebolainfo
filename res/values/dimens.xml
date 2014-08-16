@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <dimen name="btn_layout_5dp_padding">5dp</dimen>
     <dimen name="layout_8dp_margin">8dp</dimen>
+    <dimen name="margin_16dp_space">16dp</dimen>
+    <dimen name="margin_8dp_space">8dp</dimen>
+    <dimen name="text_size_18sp">18sp</dimen>
+    <dimen name="text_size_14sp">14sp</dimen>
+
 </resources>

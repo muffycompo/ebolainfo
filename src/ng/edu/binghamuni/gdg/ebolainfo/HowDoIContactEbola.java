@@ -4,40 +4,48 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.Window;
 import android.view.View.OnClickListener;
 import android.widget.Button;
-import android.widget.TextView;
 
 public class HowDoIContactEbola extends Activity implements OnClickListener {
 
-	Button btContactNext;
-	Button btContactPrev;
-	TextView tvContact;
+	Button btContactNextBtn, btContactPrevBtn;
+	TextViewEx tvContactMain, tvContactFluid, tvContactDead, tvContactAnimals;
+
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.how_to_contact_ebola);
+		requestWindowFeature(Window.FEATURE_NO_TITLE);
+		setContentView(R.layout.how_contact);
 		
-		btContactNext = (Button) findViewById(R.id.btContactNext);
-		btContactPrev = (Button) findViewById(R.id.btContactPrev);
-		tvContact = (TextView) findViewById(R.id.tvContact3);
+		btContactNextBtn = (Button) findViewById(R.id.contactNextBtn);
+		btContactPrevBtn = (Button) findViewById(R.id.contactPrevBtn);
 		
-		tvContact.setText(R.string.fluid_msg);
+		tvContactMain = (TextViewEx) findViewById(R.id.howdo_you_contact_it_msg);
+		tvContactFluid = (TextViewEx) findViewById(R.id.fluid_msg);
+		tvContactDead = (TextViewEx) findViewById(R.id.dead_victims_msg);
+		tvContactAnimals = (TextViewEx) findViewById(R.id.infected_animals_msg);
+
+		tvContactMain.setText(R.string.howdo_you_contact_it_msg, true);
+		tvContactFluid.setText(R.string.fluid_msg, true);
+		tvContactDead.setText(R.string.dead_victims_msg, true);
+		tvContactAnimals.setText(R.string.infected_animals_msg, true);
 		
-		btContactNext.setOnClickListener(this);
-		btContactPrev.setOnClickListener(this);
+		btContactNextBtn.setOnClickListener(this);
+		btContactPrevBtn.setOnClickListener(this);
 	}
 
 	@Override
 	public void onClick(View v) {
 		switch (v.getId()) {
-		case R.id.btContactNext:			
+		case R.id.contactNextBtn:			
 			Intent itNext = new Intent(this, WhatAreTheSymptoms.class);
 			startActivity(itNext);			
 			break;
 			
-		case R.id.btContactPrev:			
+		case R.id.contactPrevBtn:			
 			Intent itPrev = new Intent(this, WhatIsEbola.class);
 			startActivity(itPrev);			
 			break;

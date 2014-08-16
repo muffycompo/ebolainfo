@@ -5,35 +5,36 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.view.Window;
 import android.widget.Button;
 
 public class WhatAreTheSymptoms extends Activity implements OnClickListener {
 
-	Button btSymptomsNext;
-	Button btSymptomsPrev;
 
+	Button symptomsNextBtn, symptomsPrevBtn;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.symptoms_of_ebola);
+		requestWindowFeature(Window.FEATURE_NO_TITLE);
+		setContentView(R.layout.what_symptoms);
 		
-		btSymptomsNext = (Button) findViewById(R.id.btSymptomsNext);
-		btSymptomsPrev = (Button) findViewById(R.id.btSymptomsPrev);
+		symptomsNextBtn = (Button) findViewById(R.id.symptomsNextBtn);
+		symptomsPrevBtn = (Button) findViewById(R.id.symptomsPrevBtn);
 		
-		btSymptomsNext.setOnClickListener(this);
-		btSymptomsPrev.setOnClickListener(this);
+		symptomsNextBtn.setOnClickListener(this);
+		symptomsPrevBtn.setOnClickListener(this);
 	}
 
 	@Override
 	public void onClick(View v) {
 		switch (v.getId()) {
-		case R.id.btSymptomsNext:			
+		case R.id.symptomsNextBtn:			
 			Intent itNext = new Intent(this, HowDoIPreventEbola.class);
 			startActivity(itNext);			
 			break;
 			
-		case R.id.btSymptomsPrev:			
+		case R.id.symptomsPrevBtn:			
 			Intent itPrev = new Intent(this, HowDoIContactEbola.class);
 			startActivity(itPrev);			
 			break;

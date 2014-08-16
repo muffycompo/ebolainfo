@@ -5,31 +5,32 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.view.Window;
 import android.widget.Button;
-import android.widget.TextView;
 
 public class MainActivity extends Activity implements OnClickListener {
 
-	Button btEnlighten;
-	TextView tvPreamble;
+	Button btEnlightenHome;
+	TextViewEx tvPreamble;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
+		requestWindowFeature(Window.FEATURE_NO_TITLE);
+		setContentView(R.layout.home);
 
-		tvPreamble = (TextView) findViewById(R.id.tvPreamble);
-		btEnlighten = (Button) findViewById(R.id.btEnlighten);
-
-		tvPreamble.setText(R.string.preamble);
+		tvPreamble = (TextViewEx) findViewById(R.id.tvPre);
+		btEnlightenHome = (Button) findViewById(R.id.btEnlightenHome);
 		
-		btEnlighten.setOnClickListener(this);
+		tvPreamble.setText(R.string.preamble,true);
+
+		btEnlightenHome.setOnClickListener(this);
 		
 	}
 
 	@Override
 	public void onClick(View v) {
-		Intent it = new Intent(this, WhatIsEbola.class);
+		Intent it = new Intent(getApplicationContext(), WhatIsEbola.class);
 		startActivity(it);
 	}
 }
