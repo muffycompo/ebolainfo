@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ebola Info</string>
+    <!-- what is ebola strings? -->
+    <string name="it_is_bloody">Il est sanglante</string>
+    <string name="it_is_bloody_msg">Ebola est ce que les scientifiques appellent une fièvre hémorragique ou EHF - c\'est une maladie de l\'homme et les autres primates causées par un virus Ebola et fonctionne en faisant ses victimes saignent à partir de presque n\'importe où sur le corps. Habituellement, les personnes touchées peuvent commencer à saigner à la fois dans le corps et l\'extérieur jusqu\'à ce qu\'ils meurent.</string>
+    <string name="it_is_contagious">Elle est contagieuse</string>
+    <string name="it_is_contagious_msg">Ebola est très contagieuse; étant transmis par le contact avec les fluides corporels tels que le sang, la salive, le sperme ou les rejets corporels. Ebola n\'a pas décollé!</string>
+    <string name="really_deadly">Vraiment mortel</string>
+    <string name="really_deadly_msg">50\u0025 à 90\u0025 de personnes infectées par le virus Ebola meurent généralement d\'elle. Ebola est l\'une des maladies les plus meurtrières dans le monde, tuant en quelques semaines.</string>
+    <string name="un_treatable">Incurable</string>
+    <string name="untreatable_msg">Il n\'existe pas de traitement spécifique de la maladie. Les personnes infectées par le virus Ebola sont donnés soit la thérapie de réhydratation par voie orale (eau légèrement sucrée et salée à boire) ou intraveineuse pour aider à soutenir leur condition.</string>
+
+    <!-- How do you contact Ebola -->
+    <string name="howdo_you_contact_it">COMMENT CONTACTER INFORMATIUQE?</string>
+    <string name="howdo_you_contact_it_msg">Ebola est contagieuse par 3 façons principales. Si vous ne tombez pas dans ces 3 catégories, il est rare d\'attraper.</string>
+    <string name="fluid">Fluides</string>
+    <string name="fluid_msg">Le contact avec les fluides corporels d\'une personne qui est visiblement malade avec la maladie. Rappelez-vous, le virus Ebola n\'a pas décollé! </string>
+    <string name="dead_victims">Victimes mortes</string>
+    <string name="dead_victims_msg">Le contact avec le corps de quelqu\'un qui est mort de fièvre Ebola. Cela signifie que les cadavres sont encore contagieux.</string>
+    <string name="infected_animals">Les animaux infectés</string>
+    <string name="infected_animals_msg">Le contact avec un animal qui est porteur du virus; généralement roussettes et les singes</string>
+
+    <!-- What are the symptoms -->
+    <string name="what_are_the_symptoms">QUELS SONT LES SYMPTOMES?</string>
+    <string name="sudden_high_fever">Une forte fièvre subite</string>
+    <string name="diarrhea">Diarrhée</string>
+    <string name="vommiting">Vomissement</string>
+    <string name="weakness">Faiblesse</string>
+    <string name="joint_and_muscle_ache">Douleurs musculaires et articulaires</string>
+    <string name="stomach_pain">Douleurs à l\'estomac</string>
+    <string name="lack_of_appetite">Manque d\'appétit</string>
+    <string name="sore_throat">Maux de gorge</string>
+    <string name="bleeding">Saignement</string>
+
+    <!-- How do i prevent it -->
+    <string name="how_do_i_prevent_it">COMMENT PUIS-JE PRÉVENIR?</string>
+    <string name="wash_hands">Lavez-vous les mains avec du savon et de l\'eau</string>
+    <string name="wash_hands_msg">Pour ce faire, beaucoup de choses. Vous pouvez également utiliser un bon désinfectant pour les mains. Évitez tout contact inutile!</string>
+    <string name="keep_clean_ev">Gardez un environnement propre</string>
+    <string name="keep_clean_ev_msg">Le virus ne peut pas survivre désinfectants, chaleur, lumière directe du soleil, les détergents et les savons. Nettoyer! Vous voudrez peut-être pour la fumigation si vous avez des parasites.</string>
+    <string name="report">Rapport</string>
+    <string name="report_msg">Signaler tout symptôme suspect en vous-même ou quelqu\'un d\'autre IMMÉDIATEMENT vous les remarquez. Ne tardez pas !!</string>
+    <string name="protect_yourself">Protégez-vous</string>
+    <string name="protect_yourself_msg">Utiliser un équipement de protection si vous devez prendre soin et ne vous approchez quelqu\'un vous croyez a Ebola. En outre, les cadavres peuvent toujours transmettre le virus Ebola. Ne les touchez pas sans équipement de protection ou les éviter complètement.</string>
+    <string name="educate_everyone">Éduquer tout le monde</string>
+    <string name="educate_everyone_msg">Dites à vos voisins, collègues et le personnel domestique. Vous êtes sûr quand tout le monde est sensibilisé à virus Ebola.</string>
+    <string name="dont_handle_dead_bush_meat">Ne pas manipuler la viande de brousse morts</string>
+    <string name="dont_handle_dead_bush_meat_msg">Certains animaux sont des réservoirs de virus. Il pourrait être préférable de vous limiter à la nourriture que vous vous êtes préparé.</string>
+
+    <!-- Don\'t believe false information -->
+    <string name="false_info">JETER TOUT CANULAR SUR LE VIRUS EBOLA!</string>
+    <string name="john_g_lake">Maisons de prière</string>
+    <string name="john_g_lake_msg">Ebola n\'est pas quelque chose que vous prenez pour les maisons religieuses pour les prières. Vous pouvez prier pour les personnes infectées par le virus Ebola au téléphone. Ne pas contaminer les autres !!</string>
+    <string name="bitter_kola">Kola amère</string>
+    <string name="bitter_kola_msg">Personne n\'a été guéris ou protégés contre le virus Ebola en prenant kola amère. Si vous aimez kola amère, le manger, mais protégez-vous!</string>
+    <string name="salt_water">Sel et de l\'eau</string>
+    <string name="salt_water_msg">Sel et l\'eau chaude ne protègent pas contre les virus. Si c\'était le cas, il serait également guérir le HIV!</string>
+    <string name="preamble">Savez-vous qu\'il existe une maladie mortelle dans la ville? Il a fait de nombreuses victimes et il n\'existe aucun remède connu ou vaccin pour le moment. Laissez Ebola Infos vous éclairer sur cette maladie&#8230;</string>
+    <string name="ebola_info">EBOLA INFO</string>
+    <string name="enlighten_me">ÉCLAIRER MOI</string>
+    <string name="previous">PRÉCÉDENT</string>
+    <string name="next">PROCHAINE</string>
+    <string name="home">RECOMMENCER</string>
+
+    <!-- What do I do now -->
+    <string name="what_do_i_do_now">QUE DOIS-JE FAIRE MAINTENANT?</string>
+    <string name="what_to_do_string">Après avoir connu les symptômes du virus Ebola, si vous connaissez quelqu\'un ayant ces symptômes, envoyez un e-mail ou Quicky appeler les numéros de téléphone suivants:</string>
+    <string name="first_number">0800-EBOLA-HELP</string>
+    <string name="second_number">08037879701</string>
+    <string name="third_number">08037154575</string>
+    <string name="help_email">ebolainfo@health.gov.ng</string>
+    <string name="what_is_ebola">QU\'EST-CE QUE EBOLA?</string>
+
+</resources>
