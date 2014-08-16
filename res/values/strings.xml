@@ -2,25 +2,22 @@
 <resources>
 
     <string name="app_name">Ebola Info</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="title_activity_how_do_icontact_ebola">How Do I Contact Ebola</string>
 
     <!-- what is ebola strings? -->
-    <string name="whatis_ebola">What is Ebola?</string>
     <string name="it_is_bloody">It is bloody</string>
-    <string name="it_is_bloody_msg">Ebola is what scientists call a haemorraghic fever - it operates by making its victims bleed from almost anywhere on their body. Usually, victims bleed to death from Ebola.</string>
+    <string name="it_is_bloody_msg">Ebola is what scientists call a hemorrhagic fever or EHF - it is a disease of humans and other primates caused by an ebolavirus and operates by making its victims bleed from almost anywhere on their body. Usually, affected people may begin to bleed both within the body and externally until they die.</string>
     <string name="it_is_contagious">It is contagious</string>
-    <string name="it_is_contagious_msg">Ebola is highly contagious; being transmitted via contact with body fluids such as blood, saliva, semen or body discharges. Ebola is <b>NOT AIRBORNE!</b></string>
+    <string name="it_is_contagious_msg">Ebola is highly contagious; being transmitted via contact with body fluids such as blood, saliva, semen or body discharges. Ebola is NOT AIRBORNE!</string>
     <string name="really_deadly">Really deadly</string>
-    <string name="really_deadly_msg">About 60 to 90 of people that catch Ebola will die from it. It is one of the deadliest diseases in the world, killing in a few weeks.</string>
+    <string name="really_deadly_msg">50\u0025 to 90\u0025 of people infected with Ebola usually die from it. Ebola is one of the deadliest diseases in the world, killing in a few weeks.</string>
     <string name="un_treatable">Untreatable</string>
-    <string name="untreatable_msg">This is the sad part - Ebola has no known cure. But victims can be treated for symptoms and have been known to recover with intensive care.</string>
+    <string name="untreatable_msg">There is no specific treatment for the disease. People infected with Ebola are given either oral rehydration therapy (slightly sweet and salty water to drink) or intravenous to help support their condition.</string>
 
     <!-- How do you contact Ebola -->
     <string name="howdo_you_contact_it">HOW DO I CONTACT IT?</string>
     <string name="howdo_you_contact_it_msg">Ebola is contagious by 3 major ways. If you do not fall in these 3 categories, you are unlikely to catch it.</string>
     <string name="fluid">Fluids</string>
-    <string name="fluid_msg">Contact with body fluids of someone who is <b>VISIBLY</b> sick with the disease. Remember, Ebola is NOT AIRBORNE! </string>
+    <string name="fluid_msg">Contact with body fluids of someone who is VISIBLY sick with the disease. Remember, Ebola is NOT AIRBORNE! </string>
     <string name="dead_victims">Dead victims</string>
     <string name="dead_victims_msg">Contact with the body of someone who has died from Ebola. That means that dead bodies are still CONTAGIOUS.</string>
     <string name="infected_animals">Infected animals</string>
@@ -70,7 +67,7 @@
 
     <!-- What do I do now -->
     <string name="what_do_i_do_now">WHAT DO I DO NOW?</string>
-    <string name="what_to_do_string">Having known the symptoms of Ebola, if you know anyone having such symptoms, send us an email or quicky call the following phone numbers:</string>
+    <string name="what_to_do_string">Having known the symptoms of Ebola, if you know anyone having such symptoms, send an email or quicky call the following phone numbers:</string>
     <string name="first_number">0800-EBOLA-HELP</string>
     <string name="second_number">08037879701</string>
     <string name="third_number">08037154575</string>

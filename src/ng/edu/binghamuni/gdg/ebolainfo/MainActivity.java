@@ -31,6 +31,7 @@ public class MainActivity extends Activity implements OnClickListener {
 	@Override
 	public void onClick(View v) {
 		Intent it = new Intent(getApplicationContext(), WhatIsEbola.class);
+		it.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 		startActivity(it);
 	}
 }

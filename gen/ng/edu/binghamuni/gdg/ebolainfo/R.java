@@ -1540,80 +1540,77 @@ containing a value of this type.
          */
         public static final int abc_shareactionprovider_share_with_application=0x7f0a000b;
         public static final int app_name=0x7f0a000d;
-        public static final int bitter_kola=0x7f0a003b;
-        public static final int bitter_kola_msg=0x7f0a003c;
-        public static final int bleeding=0x7f0a002a;
-        public static final int dead_victims=0x7f0a001d;
-        public static final int dead_victims_msg=0x7f0a001e;
-        public static final int diarrhea=0x7f0a0023;
-        public static final int dont_handle_dead_bush_meat=0x7f0a0036;
-        public static final int dont_handle_dead_bush_meat_msg=0x7f0a0037;
-        public static final int ebola_info=0x7f0a0040;
-        public static final int educate_everyone=0x7f0a0034;
-        public static final int educate_everyone_msg=0x7f0a0035;
-        public static final int enlighten_me=0x7f0a0041;
+        public static final int bitter_kola=0x7f0a0038;
+        public static final int bitter_kola_msg=0x7f0a0039;
+        public static final int bleeding=0x7f0a0027;
+        public static final int dead_victims=0x7f0a001a;
+        public static final int dead_victims_msg=0x7f0a001b;
+        public static final int diarrhea=0x7f0a0020;
+        public static final int dont_handle_dead_bush_meat=0x7f0a0033;
+        public static final int dont_handle_dead_bush_meat_msg=0x7f0a0034;
+        public static final int ebola_info=0x7f0a003d;
+        public static final int educate_everyone=0x7f0a0031;
+        public static final int educate_everyone_msg=0x7f0a0032;
+        public static final int enlighten_me=0x7f0a003e;
         /**  Don't believe false information 
          */
-        public static final int false_info=0x7f0a0038;
-        public static final int first_number=0x7f0a0047;
-        public static final int fluid=0x7f0a001b;
-        public static final int fluid_msg=0x7f0a001c;
-        public static final int hello_world=0x7f0a000e;
-        public static final int help_email=0x7f0a004a;
-        public static final int home=0x7f0a0044;
+        public static final int false_info=0x7f0a0035;
+        public static final int first_number=0x7f0a0044;
+        public static final int fluid=0x7f0a0018;
+        public static final int fluid_msg=0x7f0a0019;
+        public static final int help_email=0x7f0a0047;
+        public static final int home=0x7f0a0041;
         /**  How do i prevent it 
          */
-        public static final int how_do_i_prevent_it=0x7f0a002b;
+        public static final int how_do_i_prevent_it=0x7f0a0028;
         /**  How do you contact Ebola 
          */
-        public static final int howdo_you_contact_it=0x7f0a0019;
-        public static final int howdo_you_contact_it_msg=0x7f0a001a;
-        public static final int infected_animals=0x7f0a001f;
-        public static final int infected_animals_msg=0x7f0a0020;
-        public static final int it_is_bloody=0x7f0a0011;
-        public static final int it_is_bloody_msg=0x7f0a0012;
-        public static final int it_is_contagious=0x7f0a0013;
-        public static final int it_is_contagious_msg=0x7f0a0014;
-        public static final int john_g_lake=0x7f0a0039;
-        public static final int john_g_lake_msg=0x7f0a003a;
-        public static final int joint_and_muscle_ache=0x7f0a0026;
-        public static final int keep_clean_ev=0x7f0a002e;
-        public static final int keep_clean_ev_msg=0x7f0a002f;
-        public static final int lack_of_appetite=0x7f0a0028;
-        public static final int next=0x7f0a0043;
-        public static final int preamble=0x7f0a003f;
-        public static final int previous=0x7f0a0042;
-        public static final int protect_yourself=0x7f0a0032;
-        public static final int protect_yourself_msg=0x7f0a0033;
-        public static final int really_deadly=0x7f0a0015;
-        public static final int really_deadly_msg=0x7f0a0016;
-        public static final int report=0x7f0a0030;
-        public static final int report_msg=0x7f0a0031;
-        public static final int salt_water=0x7f0a003d;
-        public static final int salt_water_msg=0x7f0a003e;
-        public static final int second_number=0x7f0a0048;
-        public static final int sore_throat=0x7f0a0029;
-        public static final int stomach_pain=0x7f0a0027;
-        public static final int sudden_high_fever=0x7f0a0022;
-        public static final int third_number=0x7f0a0049;
-        public static final int title_activity_how_do_icontact_ebola=0x7f0a000f;
-        public static final int un_treatable=0x7f0a0017;
-        public static final int untreatable_msg=0x7f0a0018;
-        public static final int vommiting=0x7f0a0024;
-        public static final int wash_hands=0x7f0a002c;
-        public static final int wash_hands_msg=0x7f0a002d;
-        public static final int weakness=0x7f0a0025;
-        /**  What are the symptoms 
-         */
-        public static final int what_are_the_symptoms=0x7f0a0021;
-        /**  What do I do now 
-         */
-        public static final int what_do_i_do_now=0x7f0a0045;
-        public static final int what_is_ebola=0x7f0a004b;
-        public static final int what_to_do_string=0x7f0a0046;
+        public static final int howdo_you_contact_it=0x7f0a0016;
+        public static final int howdo_you_contact_it_msg=0x7f0a0017;
+        public static final int infected_animals=0x7f0a001c;
+        public static final int infected_animals_msg=0x7f0a001d;
         /**  what is ebola strings? 
          */
-        public static final int whatis_ebola=0x7f0a0010;
+        public static final int it_is_bloody=0x7f0a000e;
+        public static final int it_is_bloody_msg=0x7f0a000f;
+        public static final int it_is_contagious=0x7f0a0010;
+        public static final int it_is_contagious_msg=0x7f0a0011;
+        public static final int john_g_lake=0x7f0a0036;
+        public static final int john_g_lake_msg=0x7f0a0037;
+        public static final int joint_and_muscle_ache=0x7f0a0023;
+        public static final int keep_clean_ev=0x7f0a002b;
+        public static final int keep_clean_ev_msg=0x7f0a002c;
+        public static final int lack_of_appetite=0x7f0a0025;
+        public static final int next=0x7f0a0040;
+        public static final int preamble=0x7f0a003c;
+        public static final int previous=0x7f0a003f;
+        public static final int protect_yourself=0x7f0a002f;
+        public static final int protect_yourself_msg=0x7f0a0030;
+        public static final int really_deadly=0x7f0a0012;
+        public static final int really_deadly_msg=0x7f0a0013;
+        public static final int report=0x7f0a002d;
+        public static final int report_msg=0x7f0a002e;
+        public static final int salt_water=0x7f0a003a;
+        public static final int salt_water_msg=0x7f0a003b;
+        public static final int second_number=0x7f0a0045;
+        public static final int sore_throat=0x7f0a0026;
+        public static final int stomach_pain=0x7f0a0024;
+        public static final int sudden_high_fever=0x7f0a001f;
+        public static final int third_number=0x7f0a0046;
+        public static final int un_treatable=0x7f0a0014;
+        public static final int untreatable_msg=0x7f0a0015;
+        public static final int vommiting=0x7f0a0021;
+        public static final int wash_hands=0x7f0a0029;
+        public static final int wash_hands_msg=0x7f0a002a;
+        public static final int weakness=0x7f0a0022;
+        /**  What are the symptoms 
+         */
+        public static final int what_are_the_symptoms=0x7f0a001e;
+        /**  What do I do now 
+         */
+        public static final int what_do_i_do_now=0x7f0a0042;
+        public static final int what_is_ebola=0x7f0a0048;
+        public static final int what_to_do_string=0x7f0a0043;
     }
     public static final class style {
         /** 
