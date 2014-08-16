@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/eiBlueBgMain" >
+
+    <LinearLayout
+        android:id="@+id/preventH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/darkBlue"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/margin_8dp_space"
+        android:paddingLeft="@dimen/margin_16dp_space"
+        android:paddingRight="@dimen/margin_16dp_space"
+        android:paddingTop="@dimen/margin_8dp_space" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/how_do_i_prevent_it"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/preventFooter"
+        android:layout_below="@+id/preventH" >
+
+        <RelativeLayout
+            android:id="@+id/preventRL"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/margin_16dp_space"
+            android:layout_marginRight="@dimen/margin_16dp_space"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/margin_8dp_space"
+            android:paddingTop="@dimen/margin_8dp_space" >
+
+            <TextView
+                android:id="@+id/wash_hands"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wash_hands"
+                android:textColor="@color/eiYelloColorLight"
+                android:textSize="@dimen/text_size_18sp"
+                android:textStyle="italic" />
+
+            <ng.edu.binghamuni.gdg.ebolainfo.TextViewEx
+                android:id="@+id/wash_hands_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/wash_hands"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_14sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/keep_clean_ev"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/wash_hands_msg"
+                android:text="@string/keep_clean_ev"
+                android:textColor="@color/eiYelloColorLight"
+                android:textSize="@dimen/text_size_18sp"
+                android:textStyle="italic" />
+
+            <ng.edu.binghamuni.gdg.ebolainfo.TextViewEx
+                android:id="@+id/keep_clean_ev_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/keep_clean_ev"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_14sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/report"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/keep_clean_ev_msg"
+                android:text="@string/report"
+                android:textColor="@color/eiYelloColorLight"
+                android:textSize="@dimen/text_size_18sp"
+                android:textStyle="italic" />
+
+            <ng.edu.binghamuni.gdg.ebolainfo.TextViewEx
+                android:id="@+id/report_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/report"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_14sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/protect_yourself"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/report_msg"
+                android:text="@string/protect_yourself"
+                android:textColor="@color/eiYelloColorLight"
+                android:textSize="@dimen/text_size_18sp"
+                android:textStyle="italic" />
+
+            <ng.edu.binghamuni.gdg.ebolainfo.TextViewEx
+                android:id="@+id/protect_yourself_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/protect_yourself"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_14sp"
+                android:textStyle="italic" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/preventFooter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@color/darkBlue"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/margin_8dp_space"
+        android:paddingLeft="@dimen/margin_16dp_space"
+        android:paddingRight="@dimen/margin_16dp_space"
+        android:paddingTop="@dimen/margin_8dp_space" >
+
+        <Button
+            android:id="@+id/preventPrevBtn"
+            style="@style/btnStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_8dp_space"
+            android:layout_weight="1"
+            android:minHeight="36dp"
+            android:text="@string/previous" />
+
+        <Button
+            android:id="@+id/preventNextBtn"
+            style="@style/btnStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_8dp_space"
+            android:layout_weight="1"
+            android:minHeight="36dp"
+            android:text="@string/next" />
+    </LinearLayout>
+
+</RelativeLayout>

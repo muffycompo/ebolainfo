@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/eiBlueBgMain" >
+
+    <LinearLayout
+        android:id="@+id/hoaxH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/darkBlue"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/margin_8dp_space"
+        android:paddingLeft="@dimen/margin_16dp_space"
+        android:paddingRight="@dimen/margin_16dp_space"
+        android:paddingTop="@dimen/margin_8dp_space" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/false_info"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/hoaxFooter"
+        android:layout_below="@+id/hoaxH" >
+
+        <RelativeLayout
+            android:id="@+id/hoaxRL"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/margin_16dp_space"
+            android:layout_marginRight="@dimen/margin_16dp_space"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/margin_8dp_space"
+            android:paddingTop="@dimen/margin_8dp_space" >
+
+            <TextView
+                android:id="@+id/prayer_houses"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/john_g_lake"
+                android:textColor="@color/eiYelloColorLight"
+                android:textSize="@dimen/text_size_18sp"
+                android:textStyle="italic" />
+
+            <ng.edu.binghamuni.gdg.ebolainfo.TextViewEx
+                android:id="@+id/prayer_houses_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/prayer_houses"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_14sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/bitter_kola"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/prayer_houses_msg"
+                android:text="@string/bitter_kola"
+                android:textColor="@color/eiYelloColorLight"
+                android:textSize="@dimen/text_size_18sp"
+                android:textStyle="italic" />
+
+            <ng.edu.binghamuni.gdg.ebolainfo.TextViewEx
+                android:id="@+id/bitter_kola_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bitter_kola"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_14sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/salt_water"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bitter_kola_msg"
+                android:text="@string/salt_water"
+                android:textColor="@color/eiYelloColorLight"
+                android:textSize="@dimen/text_size_18sp"
+                android:textStyle="italic" />
+
+            <ng.edu.binghamuni.gdg.ebolainfo.TextViewEx
+                android:id="@+id/salt_water_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/salt_water"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_14sp"
+                android:textStyle="italic" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/hoaxFooter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@color/darkBlue"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/margin_8dp_space"
+        android:paddingLeft="@dimen/margin_16dp_space"
+        android:paddingRight="@dimen/margin_16dp_space"
+        android:paddingTop="@dimen/margin_8dp_space" >
+
+        <Button
+            android:id="@+id/hoaxPrevBtn"
+            style="@style/btnStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_8dp_space"
+            android:layout_weight="1"
+            android:minHeight="36dp"
+            android:text="@string/previous" />
+
+        <Button
+            android:id="@+id/hoaxNextBtn"
+            style="@style/btnStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_8dp_space"
+            android:layout_weight="1"
+            android:minHeight="36dp"
+            android:text="@string/next" />
+    </LinearLayout>
+
+</RelativeLayout>

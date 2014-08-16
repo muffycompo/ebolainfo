@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/eiBlueBgMain" >
+
+    <LinearLayout
+        android:id="@+id/symptomsH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/darkBlue"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/margin_8dp_space"
+        android:paddingLeft="@dimen/margin_16dp_space"
+        android:paddingRight="@dimen/margin_16dp_space"
+        android:paddingTop="@dimen/margin_8dp_space" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/what_are_the_symptoms"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/symptomsFooter"
+        android:layout_below="@+id/symptomsH" >
+
+        <RelativeLayout
+            android:id="@+id/symptomsRL"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/margin_16dp_space"
+            android:layout_marginRight="@dimen/margin_16dp_space"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/margin_8dp_space"
+            android:paddingTop="@dimen/margin_8dp_space" >
+
+            <TextView
+                android:id="@+id/sudden_high_fever"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sudden_high_fever"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_14sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/diarrhea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sudden_high_fever"
+                android:text="@string/diarrhea"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_14sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/vommiting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/diarrhea"
+                android:text="@string/vommiting"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_14sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/weakness"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/vommiting"
+                android:text="@string/weakness"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_14sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/joint_and_muscle_ache"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/weakness"
+                android:text="@string/joint_and_muscle_ache"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_14sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/stomach_pain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/joint_and_muscle_ache"
+                android:text="@string/stomach_pain"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_14sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/lack_of_appetite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/stomach_pain"
+                android:text="@string/lack_of_appetite"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_14sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/sore_throat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lack_of_appetite"
+                android:text="@string/sore_throat"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_14sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/bleeding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sore_throat"
+                android:text="@string/bleeding"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_14sp"
+                android:textStyle="italic" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/symptomsFooter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@color/darkBlue"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/margin_8dp_space"
+        android:paddingLeft="@dimen/margin_16dp_space"
+        android:paddingRight="@dimen/margin_16dp_space"
+        android:paddingTop="@dimen/margin_8dp_space" >
+
+        <Button
+            android:id="@+id/symptomsPrevBtn"
+            style="@style/btnStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_8dp_space"
+            android:layout_weight="1"
+            android:minHeight="36dp"
+            android:text="@string/previous" />
+
+        <Button
+            android:id="@+id/symptomsNextBtn"
+            style="@style/btnStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_8dp_space"
+            android:layout_weight="1"
+            android:minHeight="36dp"
+            android:text="@string/next" />
+    </LinearLayout>
+
+</RelativeLayout>

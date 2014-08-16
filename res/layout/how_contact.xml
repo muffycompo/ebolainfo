@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/eiBlueBgMain" >
+
+    <LinearLayout
+        android:id="@+id/contactH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/darkBlue"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/margin_8dp_space"
+        android:paddingLeft="@dimen/margin_16dp_space"
+        android:paddingRight="@dimen/margin_16dp_space"
+        android:paddingTop="@dimen/margin_8dp_space" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/howdo_you_contact_it"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/contactFooter"
+        android:layout_below="@+id/contactH" >
+
+        <RelativeLayout
+            android:id="@+id/contactRL"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/margin_16dp_space"
+            android:layout_marginRight="@dimen/margin_16dp_space"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/margin_8dp_space"
+            android:paddingTop="@dimen/margin_8dp_space" >
+
+            <ng.edu.binghamuni.gdg.ebolainfo.TextViewEx
+                android:id="@+id/howdo_you_contact_it_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/fluid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/howdo_you_contact_it_msg"
+                android:text="@string/fluid"
+                android:textColor="@color/eiYelloColorLight"
+                android:textSize="@dimen/text_size_18sp"
+                android:textStyle="italic" />
+
+            <ng.edu.binghamuni.gdg.ebolainfo.TextViewEx
+                android:id="@+id/fluid_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fluid"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/dead_victims"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fluid_msg"
+                android:text="@string/dead_victims"
+                android:textColor="@color/eiYelloColorLight"
+                android:textSize="@dimen/text_size_18sp"
+                android:textStyle="italic" />
+
+            <ng.edu.binghamuni.gdg.ebolainfo.TextViewEx
+                android:id="@+id/dead_victims_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dead_victims"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/infected_animals"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dead_victims_msg"
+                android:text="@string/infected_animals"
+                android:textColor="@color/eiYelloColorLight"
+                android:textSize="@dimen/text_size_18sp"
+                android:textStyle="italic" />
+
+            <ng.edu.binghamuni.gdg.ebolainfo.TextViewEx
+                android:id="@+id/infected_animals_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/infected_animals"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/contactFooter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@color/darkBlue"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/margin_8dp_space"
+        android:paddingLeft="@dimen/margin_16dp_space"
+        android:paddingRight="@dimen/margin_16dp_space"
+        android:paddingTop="@dimen/margin_8dp_space" >
+
+        <Button
+            android:id="@+id/contactPrevBtn"
+            style="@style/btnStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_8dp_space"
+            android:layout_weight="1"
+            android:minHeight="36dp"
+            android:text="@string/previous" />
+
+        <Button
+            android:id="@+id/contactNextBtn"
+            style="@style/btnStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_8dp_space"
+            android:layout_weight="1"
+            android:minHeight="36dp"
+            android:text="@string/next" />
+    </LinearLayout>
+
+</RelativeLayout>

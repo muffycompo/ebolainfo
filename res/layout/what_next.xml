@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/eiBlueBgMain" >
+
+    <LinearLayout
+        android:id="@+id/whatNextH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/darkBlue"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/margin_8dp_space"
+        android:paddingLeft="@dimen/margin_16dp_space"
+        android:paddingRight="@dimen/margin_16dp_space"
+        android:paddingTop="@dimen/margin_8dp_space" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/what_do_i_do_now"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/whatNextFooter"
+        android:layout_below="@+id/whatNextH" >
+
+        <RelativeLayout
+            android:id="@+id/whatNextRL"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/margin_16dp_space"
+            android:layout_marginRight="@dimen/margin_16dp_space"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/margin_8dp_space"
+            android:paddingTop="@dimen/margin_8dp_space" >
+
+            <ng.edu.binghamuni.gdg.ebolainfo.TextViewEx
+                android:id="@+id/what_to_do_string"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_14sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/help_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/what_to_do_string"
+                android:text="@string/help_email"
+                android:textColor="@color/eiYelloColorLight"
+                android:textSize="@dimen/text_size_18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/first_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/help_email"
+                android:text="@string/first_number"
+                android:textColor="@color/eiYelloColorLight"
+                android:textSize="@dimen/text_size_18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/second_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/first_number"
+                android:text="@string/second_number"
+                android:textColor="@color/eiYelloColorLight"
+                android:textSize="@dimen/text_size_18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/third_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/second_number"
+                android:text="@string/third_number"
+                android:textColor="@color/eiYelloColorLight"
+                android:textSize="@dimen/text_size_18sp"
+                android:textStyle="italic" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/whatNextFooter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@color/darkBlue"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/margin_8dp_space"
+        android:paddingLeft="@dimen/margin_16dp_space"
+        android:paddingRight="@dimen/margin_16dp_space"
+        android:paddingTop="@dimen/margin_8dp_space" >
+
+        <Button
+            android:id="@+id/whatNextPrevBtn"
+            style="@style/btnStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_8dp_space"
+            android:layout_weight="1"
+            android:minHeight="36dp"
+            android:text="@string/previous" />
+
+        <Button
+            android:id="@+id/whatNextHomeBtn"
+            style="@style/btnStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_8dp_space"
+            android:layout_weight="1"
+            android:minHeight="36dp"
+            android:text="@string/home" />
+    </LinearLayout>
+
+</RelativeLayout>

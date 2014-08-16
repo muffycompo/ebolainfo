@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="eiYellowColor">#f39c12</color>
+    <color name="eiBlueBgMain">#2980b9</color>
+    <color name="eiYelloColorLight">#e09011</color>
+    <color name="white">#ffffff</color>
+    <color name="darkBlue">#2958b9</color>
+
+</resources>
