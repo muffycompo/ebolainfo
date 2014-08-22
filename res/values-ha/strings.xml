@@ -1,4 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    
+
+    <string name="app_name">Ebola Info</string>
+
+    <!-- what is ebola strings? -->
+    <string name="it_is_bloody">Yana da ha ari</string>
+    <string name="it_is_bloody_msg">Ebola shi ne abin da masana kimiyya ke kira hemorrhagic zazzabi ko EHF - shi ne wata cuta na mutane da kuma sauran primates lalacewa ta hanyar wani ebolavirus da kuma aiki by yin da wadanda yi jini daga kusan ko\'ina a jikinsu. Yawanci, abin ya shafa mutane na iya fara yi jini biyu a cikin jiki da kuma zama har sai sun mutu.</string>
+    <string name="it_is_contagious">Yana da yaduwa ne</string>
+    <string name="it_is_contagious_msg">Ebola ne sosai yaduwa ne. ana ruwaito via lamba tare da jiki ruwaye kamar jini, miyau, ko maniyyi jiki discharges. Ebola is not airborne!</string>
+    <string name="really_deadly">Yana kisa</string>
+    <string name="really_deadly_msg">50\u0025 zuwa 90\u0025 mutane kamuwa da Ebola yawanci suna mutuwa daga samuwa. Ebola yana daya daga cikin deadliest cututtuka a duniya, inda suka kashe a cikin \'yan makonni.</string>
+    <string name="un_treatable">Ba magani</string>
+    <string name="untreatable_msg">Babu wani takamaiman magani ga cutar. Mutane kamuwa da Ebola suna ba ko dai na baka rehydration far (dan kadan zaki da kuma ruwan gishiri su sha) ko na cikin igiyar jini don taimakawa wajen tallafa musu yanayin.</string>
+
+    <!-- How do you contact Ebola -->
+    <string name="howdo_you_contact_it">TA YAYA ZAN TUNTUBE SHI?</string>
+    <string name="howdo_you_contact_it_msg">Ana iya kamuwa da cutar Ebola a hanyoyi ukwu. Idan ba ka fada a cikin wadannan 3 Kategorien, kana iya shakkar aukuwarsa to kama shi.</string>
+    <string name="fluid">Ruwaye</string>
+    <string name="fluid_msg">Saduwa da jiki ruwaye na mutumin da yake fili marasa lafiya da cutar. Ku tuna, Ebola baya bin iska! </string>
+    <string name="dead_victims">Wadanda ke fama da suka mutu</string>
+    <string name="dead_victims_msg">Saduwa da jikin wanda ya mutu daga Ebola. Wannan yana nufin cewa gawawwakin nan har yanzu suna yaduwa ne.</string>
+    <string name="infected_animals">Kamuwa ta dabbobi</string>
+    <string name="infected_animals_msg">Saduwa da dabba da aka dauke da cutar. yawanci \'ya\'yan itace jemagu da birai</string>
+
+    <!-- What are the symptoms -->
+    <string name="what_are_the_symptoms">ABIN DA SU NE BAYYANAR CUTUTTUKA?</string>
+    <string name="sudden_high_fever">Kwatsam babban zazzabi</string>
+    <string name="diarrhea">Zawo</string>
+    <string name="vommiting">Yin amai</string>
+    <string name="weakness">Rauni</string>
+    <string name="joint_and_muscle_ache">Hadin gwiwa da tsoka  mai ciwo</string>
+    <string name="stomach_pain">Ciwon ciki</string>
+    <string name="lack_of_appetite">Rashin ci</string>
+    <string name="sore_throat">Ciwon makogwaro</string>
+    <string name="bleeding">Zub da jini</string>
+
+    <!-- How do i prevent it -->
+    <string name="how_do_i_prevent_it">TA YAYA ZAN HANA SAMUN SHI?</string>
+    <string name="wash_hands">A wanke hannuwanku da sabulu da kuma ruwa</string>
+    <string name="wash_hands_msg">Yin haka da yawa. Kuma zaka iya amfani mai kyau sanitizer na hannu. Kauce da ga taba mutane!</string>
+    <string name="keep_clean_ev">Ka mai tsabta muhalli</string>
+    <string name="keep_clean_ev_msg">Da cutar ba zai iya tsira wa disinfectants, zafi, hasken rana kai tsaye, man wanki da sabulu. Tsabtace! Za ka iya sa managinin kwari.</string>
+    <string name="report">Rahoto</string>
+    <string name="report_msg">Rahoto wani da kokanto bayyanar cututtuka a kanka ko wani abu nan da nan idan ka wasu da shi. Kada ka jinkirta!!</string>
+    <string name="protect_yourself">Kare Kanka</string>
+    <string name="protect_yourself_msg">Yi amfani da kariyar kaya idan dole ne ka damu ko je kusa da wani ka zargin yana da Ebola. Har ila yau, gawawwakin iya har yanzu aika da Ebola. Kada ka taba su ba tare da m kaya ko kauce wa su gaba ɗaya.</string>
+    <string name="educate_everyone">Ilmantar da kowa da kowa</string>
+    <string name="educate_everyone_msg">Ka ce wa makwabta ka, abokan aiki da kuma gida ma\'aikatan. Kai ne mafi aminci a lokacin da kowa da kowa ne ilimi game da Ebola.</string>
+    <string name="dont_handle_dead_bush_meat">Kada ka rike naman daji</string>
+    <string name="dont_handle_dead_bush_meat_msg">Wasu dabbobi suna yawo da cutar. Yana iya zama mafi alhẽri ga takura kanka ga abinci ka shirya kanka.</string>
+
+    <!-- Don\'t believe false information -->
+    <string name="false_info">A KAWAR DA CANJE WANI JABU KAN EBOLA!</string>
+    <string name="john_g_lake">Gidajen addu\'a</string>
+    <string name="john_g_lake_msg">Ebola ba wani abun da za ka kai wa gidajen addu\'a don addini ba. Za ka iya yin addu\'a ga mutanen da sun kamu da cutar Ebola a kan tarho. Kada ka bawa wasu cutar Ebola!!</string>
+    <string name="bitter_kola">Goro mai dachi</string>
+    <string name="bitter_kola_msg">Ba wanda ya warke, ko kariya daga Ebola ta cin goro mai dachi. Idan ka na son goro mai dachi, ku ci shi, amma kare kanka!</string>
+    <string name="salt_water">Gishiri da Ruwa</string>
+    <string name="salt_water_msg">Gishiri da ruwan zafi ba su kare da ƙwayoyin cuta. Idan ya yi, zai kuma warkewarta HIV!</string>
+    <string name="preamble">Ka san cewa akwai m cuta a gari? An rasa rayuka dayawa da ba a san maganin sa ba. Bari Ebola Info ya fadakar da ku game da wannan cuta&#8230;</string>
+    <string name="ebola_info">EBOLA INFO</string>
+    <string name="enlighten_me">FADAKAR DA NI</string>
+    <string name="previous">BAYA</string>
+    <string name="next">GABA</string>
+    <string name="home">SOMA KUMA</string>
+
+    <!-- What do I do now -->
+    <string name="what_do_i_do_now">ME ZAN YI YANZU?</string>
+    <string name="what_to_do_string">Bayan da ka san bayyanar cututtuka na Ebola, idan ka san kowa mai irin bayyanar cututtuka na Ebola, tura email ko kira wadannan lambobin waya da sauri:</string>
+    <string name="first_number">0800-EBOLA-HELP</string>
+    <string name="second_number">08037879701</string>
+    <string name="third_number">08037154575</string>
+    <string name="help_email">ebolainfo@health.gov.ng</string>
+    <string name="what_is_ebola">MENE NE EBOLA?</string>
+
 </resources>
