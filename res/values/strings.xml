@@ -29,7 +29,7 @@
     <string name="diarrhea">Diarrhea</string>
     <string name="vommiting">Vomiting</string>
     <string name="weakness">Weakness</string>
-    <string name="joint_and_muscle_ache">Joint and Muscle ache</string>
+    <string name="joint_and_muscle_ache">Joint and muscle ache</string>
     <string name="stomach_pain">Stomach pain</string>
     <string name="lack_of_appetite">Lack of appetite</string>
     <string name="sore_throat">Sore throat</string>
@@ -67,7 +67,7 @@
 
     <!-- What do I do now -->
     <string name="what_do_i_do_now">WHAT DO I DO NOW?</string>
-    <string name="what_to_do_string">Having known the symptoms of Ebola, if you know anyone having such symptoms, send an email or quicky call the following phone numbers:</string>
+    <string name="what_to_do_string">Having known the symptoms of Ebola, if you reside in Nigeria and know anyone having such symptoms, send an email or quickly call the following emergency phone numbers:</string>
     <string name="first_number">0800-EBOLA-HELP</string>
     <string name="second_number">08037879701</string>
     <string name="third_number">08037154575</string>

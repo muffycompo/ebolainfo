@@ -66,7 +66,7 @@
 
     <!-- What do I do now -->
     <string name="what_do_i_do_now">QUE DOIS-JE FAIRE MAINTENANT?</string>
-    <string name="what_to_do_string">Après avoir connu les symptômes du virus Ebola, si vous connaissez quelqu\'un ayant ces symptômes, envoyez un e-mail ou Quicky appeler les numéros de téléphone suivants:</string>
+    <string name="what_to_do_string">Après avoir connu les symptômes du virus Ebola, si vous résidez au Nigeria et connaissez quelqu\'un ayant ces symptômes, envoyer un courriel ou appeler les numéros de téléphone d\'urgence suivantes rapidement:</string>
     <string name="first_number">0800-EBOLA-HELP</string>
     <string name="second_number">08037879701</string>
     <string name="third_number">08037154575</string>
